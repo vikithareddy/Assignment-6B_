@@ -1,0 +1,1384 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  }
+
+body, html {
+    font-family: "Assistant";
+    background: #F5F4EE;
+    color: #5C241B;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* NAVIGATION */
+nav {
+  background-color: #5C241B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  padding: 5px;
+}
+
+
+.logo {
+  display: inline-block;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  font-weight: 600;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  height: auto;
+}
+
+.nav-item a:hover {
+  border-bottom: 0.5px solid white;
+}
+
+.nav-item a.active-nav {
+  border-bottom: 0.5px solid white;
+  width: 50%;
+}
+
+.logo img {
+  width: 100px;
+  vertical-align: middle;
+  margin-left:90px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.cart img {
+  vertical-align: middle;
+  margin-right:90px;
+}
+
+/* HERO SECTION */
+/* The hero image */
+.hero-image {
+  background-image: url("images/hero-image.png");
+  background-color: #5C241B;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Place text on the hero image */
+.hero-text {
+  text-align: left;
+  color:#ECEAE0;
+}
+
+h1 {
+  width: 980px;
+  height: 181px;
+  margin-top: 92px;
+  margin-left: 90px;
+  
+  font-family: "Arima Madurai";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 91px;
+  line-height: 115.3%;
+}
+
+h2 {
+
+  width: 955px;
+  height: 79px;
+  margin-left: 90px;
+  margin-top: 50px;
+
+  font-family: "Assistant";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 37px;
+
+  color: #ECEAE0;
+}
+
+.pincode {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  margin-left: 90px;
+  max-width: 370px;
+  margin-bottom: 50px;
+}
+
+.pin {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-color: white;
+  border-radius: 0px;
+  background-color: transparent;
+  margin-left: 5px;
+}
+
+.pincode p {
+  font-weight: 700;
+}
+
+.pincode-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  margin-left: 5px;
+  border-bottom: 1px solid white;
+}
+
+.pincode-button:hover {
+  color: #DAD2D2;
+}
+
+input[name=pin] {
+  color: white;
+}
+
+/* CTA Button */
+.cta {
+  width: 220px;
+  height: 60px;
+  top: 125px;
+  margin-left: 90px;
+
+  background: #F5F4EE;
+  border-radius: 4.12437px;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  border: none;
+
+  color: #5C241B;
+}
+
+.cta:hover {
+  background-color: rgba(245, 244, 238, 0.90);
+  color: #581A0F;
+  border: solid 2px #581A0F;
+}
+
+
+/* OUR SHOP SECTION */
+#our-shop-title {
+  margin-top: 130px;
+}
+
+.our-shop {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+  justify-items: center;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.map {
+  margin-top: 70px;
+  width: 100%;
+  
+}
+
+.map-bar {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  background-color: #5C241B;
+  width: 100%;
+  height: 100px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 140px;
+ 
+}
+
+.location-icon {
+  margin-left: 60px;
+}
+
+.email-icon {
+  margin-left: 190px;
+}
+
+.map-bar p {
+  margin-left: -270px;
+}
+
+.our-shop-details {
+  background-color: #ECEAE0;
+  width: 100%;
+  height: 615px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 140px;
+  justify-items: center;
+}
+
+.our-shop-details h4 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 61px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.shop-description {
+  margin: 70px 90px 50px 90px;
+  
+}
+
+#shop-hours {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  margin-top: 80px;
+  justify-items: center;
+}
+
+#shop-hours img {
+  justify-self: end;
+  margin-right: 20px;
+}
+
+#shop-hours p {
+  font-size: 18px;
+  justify-self: start;
+}
+
+.smaller-buttons {
+  background: #F5F4EE;
+  border-radius: 4.12437px;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  color: #5C241B;
+  margin-top: 80px;
+  border: none;
+}
+
+.smaller-buttons:hover {
+  background-color: rgba(245, 244, 238, 0.90);
+  color: #581A0F;
+  border: solid 1px #581A0F;
+}
+
+/* FOOTER */
+footer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: #ECEAE0;
+  height: 100px;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-dark {
+  margin-left: 90px;
+}
+
+footer h3{
+	color: #5C241B; 
+  margin-bottom: 2px; 
+  font-weight: 400;
+  font-family: "Assistant";
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+
+.right {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-items: right;
+  align-items: center;
+}
+
+
+footer form .inptfld {
+    font-family: "Assistant";
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 3px;
+    width: 220px;
+    margin-left: -30px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color: #5C241B;
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+footer form .subscribebtn {
+  font-family: "Assistant";
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  color: #5C241B;
+  background: #F5F4EE;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 80px;
+}
+
+footer form .subscribebtn:hover {
+  background-color: rgba(245, 244, 238, 0.90);
+  color: #581A0F;
+  border: solid 1px #581A0F;
+}
+
+/* PRODUCTS PAGE */
+.product-listings {
+  display: grid;
+  grid-template-columns: 390px 390px 390px;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  margin-top: 50px;
+  grid-gap: 50px;
+}
+
+.product-card {
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-family: "Arima Madurai";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 115.3%;
+  text-align: center;
+}
+
+.breadcrumbs {
+  margin-left: 90px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.breadcrumbs  a:visited {
+  color: #87463C;
+}
+
+h5 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+h6 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.subheading {
+  text-align: center;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.second-heading {
+  margin-top: 125px;
+}
+
+.price-and-cart {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.cart-dark {
+  text-align: right;
+}
+
+/* Code referenced from https://codepen.io/sahil4test/pen/xERYvX */
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #ECEAE0;
+  border-radius: 5px;
+  width: 55%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup-grid-right h3 {
+  font-weight: bold;
+  font-size: 24px;;
+  line-height: 16px;
+  text-align: left;   
+  color: #581A0F;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.popup-grid-right h6 {
+  font-weight: bold;
+  font-size: 18px;;
+  line-height: 16px;
+  text-align: left;   
+  color: #923A2D;
+  margin-left: 10px;
+}
+
+.popup-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.popup-grid img {
+  justify-self: center;
+  align-self: center;
+}
+
+.radio-buttons {
+  display: grid;
+  grid-template-rows: 20% 20% 20% 20%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.popup-grid-right button {
+  background: #F5F4EE;
+  border-radius: 4.12437px;
+  font-family: "Assistant";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px 20px 8px 20px;
+  color: #5C241B;
+  border: none;
+  float: right;
+}
+
+.popup-grid-right button:hover {
+  background-color: rgba(245, 244, 238, 0.90);
+  color: #581A0F;
+  border: solid 1px #581A0F;
+}
+
+.radio__label {
+  font-weight: 400;
+}
+
+.radio {
+  margin-bottom: 10px;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #87463C;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+.popup h4 {
+  display:inline-block;
+}
+
+
+/* progress bar on popup */
+/* Code referenced from https://devrecipes.net/step-progres-bar-with-pure-css/ */
+.stepper-wrapper {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.stepper-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+
+}
+
+.stepper-item::before {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #ccc;
+  width: 100%;
+  top: 15px;
+  left: -50%;
+  z-index: 2;
+}
+
+.stepper-item::after {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #ccc;
+  width: 100%;
+  top: 15px;
+  left: 50%;
+  z-index: 2;
+}
+
+.stepper-item .step-counter {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ccc;
+  margin-bottom: 6px;
+}
+
+.stepper-item.active .step-counter{
+  font-weight: bold;
+  background-color: #A67068;
+  color: white;
+}
+
+.stepper-item.completed .step-counter {
+  background-color: #D7BFBC;
+}
+
+.stepper-item.completed::after {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #5C241B;
+  width: 100%;
+  top: 15px;
+  left: 50%;
+  z-index: 3;
+}
+
+.stepper-item:first-child::before {
+  content: none;
+}
+.stepper-item:last-child::after {
+  content: none;
+}
+
+.step-name {
+  font-size: 10px;
+}
+
+.custom-box {
+  height: 500px;
+}
+
+.custom-box-popup {
+  display: grid;
+  grid-template-rows: 5% 55% 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.custom-flavor-selection {
+  width: 100px;
+  height: 100px;
+  border: 1px dashed #5C241B;
+  font-size: 70px;
+  text-align: center;
+  margin-right: 40px;
+  color: #989292;
+}
+
+.custom-box-images {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.flavor-selection input {
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: #5C241B;
+  background: #F5F4EE;
+  cursor: pointer;
+  font-weight: 600;
+  justify-self: center;
+  margin-top: 5px;
+}
+
+.custom-box-selections {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 50% 50% ;
+  justify-items: center;
+  margin-right: 30px;
+}
+
+.custom-popup-bottom {
+  float: right;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+.custom-box-glazing {
+  display: grid;
+  grid-template-rows: 10% 40% 20% 10%;
+  justify-items: center;
+}
+
+.glazing {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin: 20px 90px 20px 90px;
+}
+
+.custom-box-glazing .custom-flavor-selection {
+  margin-right: 90px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.glazing-dropdown {
+  appearance: none;
+  outline: 0;
+  background: white;
+  color: black;
+  cursor: pointer;
+  border:2px solid #5C241B;
+  border-radius:4px;
+  padding: 8px;
+  width: 150px;
+  display: inline-block;
+}
+
+.custom-popup-bottom button {
+  background: #F5F4EE;
+  border-radius: 4.12437px;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px 20px 8px 20px;
+  color: #5C241B;
+  border: none;
+  float: right;
+  margin-top: 15px;
+}
+
+/* ABOUT PAGE */
+#store-description {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+}
+
+#storefront {
+  margin: 90px 40px 110px 90px;
+  float: left;
+  width: 50%;
+}
+
+#description-text {
+  font-size: 40px;
+  margin-top: 130px;
+  font-weight: 400;
+  padding-right: 90px;
+}
+
+#description-text p{
+  font-size: 26px;
+  margin-top: 30px;
+}
+
+#store-paragraph-tagline {
+  font-weight: 600;
+}
+
+#description-text h4 {
+  font-weight: 700;
+}
+
+#about-bottom-bar {
+  background-color:#5C241B;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 140px;
+  justify-items: center;
+}
+
+#about-bottom-bar p {
+  color: #FFFFFF;
+  font-size: 40px;
+  justify-self: start;
+  align-self: center;
+  margin-left: 90px;
+}
+
+#about-bottom-bar button {
+  background: #F5F4EE;
+  border-radius: 4.12437px;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  padding: 10px 20px 10px 20px;
+  color: #5C241B;
+  border: none;
+  margin: 40px 0px 40px 400px;
+}
+
+#about-bottom-bar button:hover {
+  background-color: rgba(245, 244, 238, 0.90);
+  color: #581A0F;
+  border: solid 1px #F5F4EE;
+}
+
+/* FLAVORS PAGE */
+.flavor-selection {
+  text-align:center;
+  font-family: "Assistant";
+  margin-top: 30px;
+}
+
+.flavor-selection label {
+  font-size: 30px;
+  font-weight: 600;
+  color: #923A2D;
+}
+
+#flavors {
+  appearance: none;
+  outline: 0;
+  background: white;
+  color: black;
+  cursor: pointer;
+  border:2px solid #5C241B;
+  border-radius:4px;
+  padding: 8px;
+  width: 200px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#glazing-types, #quantity-options {
+  appearance: none;
+  outline: 0;
+  background: white;
+  color: black;
+  cursor: pointer;
+  border:2px solid #5C241B;
+  border-radius:4px;
+  padding: 5px;
+  width: 130px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* Code referenced from https://codepen.io/vkjgr/pen/VYMeXp */
+/* adding the arrow on the drop-down list */
+select#flavors {
+  background-image:
+    linear-gradient(45deg, transparent 50%, #5C241B 50%),
+    linear-gradient(135deg, #5C241B 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 18px) calc(1em + 1px),
+    calc(100% - 13px) calc(1em + 1px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+/* drop down arrow for the glazing select drop-down */
+select#glazing-types{
+  background-image:
+    linear-gradient(45deg, transparent 50%, #5C241B 50%),
+    linear-gradient(135deg, #5C241B 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 10px) calc(0.9em ),
+    calc(100% - 5px) calc(0.9em),
+    calc(100% - 1.5em) 0.2em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  width: 150px;
+}
+
+/* arrow for the quantity drop down menu */
+select#quantity-options{
+  background-image:
+    linear-gradient(45deg, transparent 50%, #5C241B 50%),
+    linear-gradient(135deg, #5C241B 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 10px) calc(0.9em ),
+    calc(100% - 5px) calc(0.9em),
+    calc(100% - 1.5em) 0.2em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  width: 50px;
+}
+
+
+
+.flavor-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 80px 90px 100px 80px;
+}
+
+.flavor-image{
+  justify-self: end;
+  margin-right: 90px;
+}
+
+.flavor-title-cart {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.flavor-description p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.flavor-description {
+  width: 90%;
+  max-width: 550px;
+}
+
+.nutrition, .ingredients, .show, .hide {
+  color: #5C241B;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.hide, .show {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+
+#add-to-cart {
+  background: #5C241B;
+  border-radius: 4.12437px;
+  font-family: "Assistant";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 5px 10px 5px 10px;
+  color: #F5F4EE;
+  border: none;
+  width: 30%;
+  margin: 10px 0px 50px 0px;
+}
+
+#add-to-cart:hover {
+  background-color: rgba(245, 244, 238, 0.90);
+  color: #581A0F;
+  border: solid 1px #581A0F;
+}
+
+/* Code referenced from https://stackoverflow.com/questions/15095933/pure-css-collapse-expand-div/38905720 */
+.details,
+.show,
+.hide:target {
+  display: none;
+}
+.hide:target + .show,
+.hide:target ~ .details {
+  display: block;
+}
+
+/* CAROUSEL STYLING */
+/* Code referenced from https://dev.to/rahulra08598872/multiple-item-carousel-39ae */
+.carousel-container {
+  width: 80%;
+  margin: 60px 90px 90px 90px;
+  position: relative;
+}
+
+#carousel-heading {
+  font-size: 38px;
+}
+
+.inner-carousel {
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+}
+
+.track {
+  display: inline-flex;
+  height: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+.card-container {
+  width: 480px;
+  flex-shrink: 0;
+  padding-right: 10px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  background-position: center bottom;
+  background-size: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.nav button {
+  position: absolute;
+  top: 40%;
+  transform: translatey(-50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  outline: none;
+  border: 1px solid #923A2D;
+  cursor: pointer;
+}
+
+.fa-arrow-right, .fa-arrow-left {
+  color:#923A2D;
+}
+
+.nav .prev {
+  left: -30px;
+  display: none;
+}
+
+.nav .prev.show {
+  display: block;
+}
+.nav .next {
+  right: -30px;
+}
+.nav .next.hide {
+  display: none;
+}
+
+
+/* CONTACT US FORM */
+/* Referenced from codinglabweb.com/2021/04/contact-us-form-in-html-and-css-free.html */
+.contact-container{
+  max-width: 1150px;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 90px 90px 110px 90px;
+  background-color:#ECEAE0;
+}
+
+.topic-text{
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.social-icons {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin-top: 75px;
+}
+
+.social-icons img {
+  margin-right: 15px;
+  margin-left: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.left-side p {
+  margin-bottom: 75px;
+}
+
+.address-details, .phone-details, .email-details {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 25px;
+}
+
+.text-one {
+  text-align: left;
+  width: 230px;
+  margin-left: -50px;
+}
+
+.contact-container .content{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.contact-container .content .left-side{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: left;
+  margin-top: 15px;
+  position: relative;
+}
+
+.content .left-side::before{
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+
+.submit-contact {
+  background: #F5F4EE;
+  border-radius: 4.12437px;
+  font-family: "Assistant";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  color: #5C241B;
+  border: none;
+}
+
+.content .left-side .details .text-one,
+.content .left-side .details .text-two{
+  font-size: 14px;
+  color:rgba(92, 36, 27, 0.8);
+}
+
+.contact-container .content .right-side{
+  width: 75%;
+  margin-left: 75px;
+}
+
+.content .right-side .topic-text{
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.right-side .input-box{
+  height: 50px;
+  width: 100%;
+  margin: 12px 0 50px 0;
+}
+
+.right-side .input-box input,
+.right-side .input-box textarea{
+  height: 100%;
+  width: 50%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-color: rgba(92, 36, 27, 0.8);
+  border-width: 2.5px;
+  border-radius: 0px;
+  background-color: transparent;
+  padding: 0 15px;
+  resize: none;
+}
+
+.right-side .message-box{
+  min-height: 110px;
+}
+
+.right-side .input-box textarea{
+  padding-top: 6px;
+}
+
+  .contact-container .content{
+    flex-direction: column-reverse;
+  }
+  
+ .contact-container .content .left-side{
+   width: 100%;
+   flex-direction: row;
+   margin-top: 40px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+
+ .contact-container .content .left-side::before{
+   display: none;
+ }
+
+ .contact-container .content .right-side{
+   width: 100%;
+   margin-left: 0;
+ }
+
+
+ /* CART PAGE */
+ #cart {
+   max-width: 1200px;
+   align-self: center;
+   margin-top: 30px;
+ }
+
+ .cart-table {
+   width: 100%;
+ }
+
+ #cart-headings {
+   display: grid;
+   grid-template-columns: 40% 20% 20% 20%;
+   margin-top: 10px;
+   font-weight: 600;
+ }
+
+ .product-details {
+   display: grid;
+   grid-template-columns: 50% 50%;
+   width: 500px;
+ }
+
+ .product-details img {
+   width: 230px;
+ }
+
+ .product-details-text {
+   display: grid;
+   grid-template-rows: 15% 15% 15% 15%;
+ }
+
+.card-product-title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.cart-flavor-options {
+  font-weight: 400;
+}
+
+.cart-image {
+  width: 50%;
+  float:left;
+}
+
+ .cart-product-card {
+   display: grid;
+   grid-template-columns: 40% 20% 20% 20%;
+   margin-top: 50px;
+   margin-bottom: 50px;
+ }
+
+ .Action{
+  font-size: 14px;
+  font-weight: 600;
+  color: #923A2D;
+  cursor: pointer;
+  margin-top: 20px;
+  max-width: 90px;
+  background-color: transparent;
+  border: none;
+  margin-left: 5px;
+  border-bottom: 1px solid #5C241B;
+ }
+
+ #subtotal-checkout {
+   max-width: 350px;
+   display: grid;
+   grid-template-columns: 70% 30%;
+   grid-template-rows: auto auto;
+   align-self: flex-end;
+   margin-right: 290px;
+   margin-top:20px;
+ }
+
+ #subtotal-checkout button {
+  background: #5C241B;
+  border-radius: 4.12437px;
+  font-family: "Assistant";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  padding: 10px 20px 10px 20px;
+  color: #F5F4EE;
+  border: none;
+  width: 100%;
+  margin: 10px 0px 50px 50px;
+ }
+
+ #subtotal-checkout button:hover {
+  background-color: rgba(245, 244, 238, 0.90);
+  color: #581A0F;
+  border: solid 1px #581A0F;
+ }
+
+ /* empty cart message styling */
+ .empty-message {
+   font-size: 36px;
+   margin: 40px 0px;
+   color: #923A2D;
+   font-family: "Assistant";
+   font-weight: 600;
+ }
+
+
+/* add a item number preview to the cart icon */
+/* referenced from https://codepen.io/jmalatia/pen/MJaVxL */
+.number-preview {
+  position:absolute;
+  right:6%;
+  top: 2%;
+  /* content: attr(data-count); */
+  font-size:90%;
+  font-weight: 700;
+  padding:.1em;
+  border-radius:100%;
+  line-height:1em;
+  color: #923A2D;
+  background:white;
+  text-align:center;
+  min-width: 1em;
+}
+
+.add-to-cart-feedback {
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  color: #333;
+  font-weight: 500;
+  background-color:#FFFFFF;
+  padding: 10px;
+  animation: fadein 3s;
+  border-radius: 4px;
+}
+
+/* for the hero image h1 text animation */
+span {
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+span.fade {
+  opacity: 1;
+}
+
+/* WISHLIST */
+#wishlist {
+  margin: 40px 90px 90px 90px;
+  border: 2px solid #581A0F;
+  width: 50%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#wishlist-heading {
+  text-align: left;
+  margin-left: 90px;
+  margin-top: 40px;
+}
+
+.wishlist-product-details {
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+
+}
+
+.wishlist-product-title {
+  font-size: 20px;
+  margin-left: -100px;
+}
+
+.wishlist-flavor-options {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-left: -100px;
+}
+
+.Action2 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #923A2D;
+  cursor: pointer;
+  max-width: 60px;
+  background-color: transparent;
+  border: none;
+  margin-left: 5px;
+  margin-left: -100px;
+  text-align: left;
+}
+
+#wishlist-button {
+  margin-left: 10px;
+}
