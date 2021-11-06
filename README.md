@@ -6,11 +6,5 @@ Bun Bun Bake Shop is a local cinnamon roll bakery located in Pittsburgh. Bun Bun
 Bun Bun Bake Shop’s website was designed to immediately attract users to try its artisanal cinnamon rolls. The main goals of the website are to allow users to browse through the different flavors and options available and provide an easy way to customize their orders. All products come with a small description, nutritional information, and an ingredient list, which allows the users – especially those who are more health-conscious – to find the flavor of their choice. The users can easily browse through the different flavors by selecting a flavor from the dropdown menu on the Flavor page. They can start customizing their orders from this page or navigate through the Products page and select the flavor. The Add to Cart process uses a pop-up modal, mimicking popular food delivery sites like Doordash. However, in this design, the customization process is a step-by-step process which makes it easy for users to consider their options carefully and then place the order. The pop-up modal is also effective in not stopping the “shopping process” i.e. the user can add one product to their cart and then go back to browsing more products without having to navigate through multiple pages. 
 
 
-# Website implementation
-Currently, the Bun Bun Bake Shop website is implemented using only HTML and CSS. While some interactive components like collapsibles and popups are already implemented, the rest of the website is static. Interactivity to the website will be added with JavaScript in the coming weeks.
-
-# TODO
-* Contact Page
-* Glazing Selection Popup for Custom Boxes
-* Cart page
-* Interactivity 
+# Checkout Process
+Flavors.html –> select flavor, glazing, quantity from the options –> Click on Add to Cart button –> View item in Cart.html –> Remove item or add it to wishlist 
