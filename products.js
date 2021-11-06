@@ -43,7 +43,10 @@ function productInfo() {
     };
 }
 
-
+const flavorsSelectDropDown = document.getElementById("flavors");
+flavorsSelectDropDown.addEventListener("change", function() {
+    productInfo();
+});
 productInfo();
 
 

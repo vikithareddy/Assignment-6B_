@@ -94,13 +94,6 @@ function flavorSelection(flavor) {
     } 
 }
 
-//call the productInfo function when there's been a change to the drop down
-const flavorsSelectDropDown = document.getElementById("flavors");
-flavorsSelectDropDown.addEventListener("change", function() {
-    flavorSelection(this.flavor);
-});
-
-// productInfo();
 
 
 // Shop Tab, Popup -- products.html 

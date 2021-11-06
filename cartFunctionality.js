@@ -86,28 +86,28 @@ function createCart() {
             bagContentEl.appendChild(selectedItemParentDiv)
 
 
-                                    // WISHLIST
-                                    wishlistButton.addEventListener("click", function(){
-                                        selectedItemParentDiv.remove();
+            // WISHLIST
+            wishlistButton.addEventListener("click", function(){
+            selectedItemParentDiv.remove();
                         
-                                        const index = cartContent.findIndex( function(cartItem) {
-                                            if (cartItem == item) {
-                                                return true;
-                                            }
-                                        });
-                                        cartContent.splice(index, 1);
-                                        window.localStorage.setItem("products", JSON.stringify(cartContent));
+            const index = cartContent.findIndex( function(cartItem) {
+                if (cartItem == item) {
+                    return true;
+                }
+            });
+            cartContent.splice(index, 1);
+            window.localStorage.setItem("products", JSON.stringify(cartContent));
                         
-                                        let wishlist = [];
-                                        if(localStorage.getItem('savedProducts')){
-                                            wishlist = JSON.parse(localStorage.getItem('savedProducts'));
-                                        }
-                                        wishlist.push(item);
-                                        localStorage.setItem('savedProducts', JSON.stringify(wishlist));
+            let wishlist = [];
+            if(localStorage.getItem('savedProducts')){
+                wishlist = JSON.parse(localStorage.getItem('savedProducts'));
+            }
+            wishlist.push(item);
+            localStorage.setItem('savedProducts', JSON.stringify(wishlist));
                                         
-                                        addLatestItemToWishlist()
+                addLatestItemToWishlist()
                                         
-                                    });
+            });
                                     
 
             //remove item functionality

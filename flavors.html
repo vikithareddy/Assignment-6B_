@@ -53,7 +53,7 @@
   <!-- FLAVOR SELECTION -->
   <div class = "flavor-selection">
     <label >Choose a flavor:</label>
-    <select name="flavors-dropdown" class="flavor" id = "flavors" onmousedown="this.flavor='';" onchange="productInfo();" >
+    <select name="flavors-dropdown" class="flavor" id = "flavors" onmousedown="this.flavor='';" onchange="flavorSelection(this.flavor);" >
       <option value="Original">Original</option>
       <option value="Original(GF)">Original (Gluten-Free)</option>
       <option value="Walnut">Walnut</option>
