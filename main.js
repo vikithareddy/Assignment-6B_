@@ -95,7 +95,6 @@ function flavorSelection(flavor) {
 }
 
 
-
 // Shop Tab, Popup -- products.html 
 /* when the cart icon of each product is clicked, change the flavor name and the image on the popup*/
 function popupContent(cart_selected) {
